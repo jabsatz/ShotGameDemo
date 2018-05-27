@@ -94,22 +94,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "8",
             "varName": "walksp",
-            "varType": 0
-        },
-        {
-            "id": "36fda1a7-bbcb-492d-bc63-017213097f6c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "runsp",
             "varType": 0
         },
         {
@@ -180,6 +166,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "switchCooldown",
+            "varType": 0
+        },
+        {
+            "id": "1d775a2f-4210-4586-b243-6b4bb2a67446",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "shootRecoil",
+            "varType": 0
+        },
+        {
+            "id": "3617f964-978d-4cc3-8773-27e7af0d9cf5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "recoilAngle",
             "varType": 0
         }
     ],

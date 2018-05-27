@@ -1,4 +1,5 @@
 fire_key = mouse_check_button(mb_left);
+alt_fire_key = mouse_check_button(mb_right);
 
 x = Drake_Object.x;
 y = Drake_Object.y;
@@ -20,6 +21,9 @@ else {
 
 if(!Drake_Object.active){exit}
 
+if(Drake_Object.grounded)
+	canAltFire = true;
+
 firingDelay -= 1;
 
 if(fire_key && firingDelay < 0) {
@@ -29,4 +33,11 @@ if(fire_key && firingDelay < 0) {
 		direction = other.image_angle;
 		image_angle = direction;
 	}
+}
+
+if(alt_fire_key && canAltFire && firingDelay < 0) {
+	firingDelay = 15;
+	canAltFire = false;
+	Drake_Object.recoilAngle = degtorad(image_angle);
+	Drake_Object.shootRecoil = 10;
 }

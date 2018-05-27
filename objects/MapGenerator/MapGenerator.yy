@@ -1,10 +1,19 @@
 {
-    "id": "d41af0bf-ba8f-4ec5-bc52-6bb35da305fe",
+    "id": "f16d5484-e5a1-419c-913b-909ae69fa7cf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Block",
+    "name": "MapGenerator",
     "eventList": [
-        
+        {
+            "id": "4053c91d-45c6-4096-8af6-deee54e0ebe6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f16d5484-e5a1-419c-913b-909ae69fa7cf"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "be96c54b-b746-4d86-a138-33ddbfad6498",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

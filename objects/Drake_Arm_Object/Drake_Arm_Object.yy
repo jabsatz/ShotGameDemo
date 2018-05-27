@@ -15,16 +15,6 @@
             "m_owner": "79fb3943-c769-4bac-92a7-f5efc5ee520e"
         },
         {
-            "id": "cfc24273-2375-4454-9ad2-029ec0a6884d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "79fb3943-c769-4bac-92a7-f5efc5ee520e"
-        },
-        {
             "id": "ba3394bf-a68c-41e9-b7c4-2b631690c1c5",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -51,7 +41,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "b675046b-ac4d-4085-87fd-b9e996ea9e2e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "firingDelay",
+            "varType": 0
+        },
+        {
+            "id": "99c596cf-ded9-4b31-a4e4-41f0eb41da87",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "canAltFire",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "10211bcf-f08e-493e-ae01-3ba988fc6900",
     "visible": true

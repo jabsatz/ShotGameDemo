@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "13c0008a-3a1c-4027-842c-010eef501d32",
+            "Value": {
+                "id": "5e316234-a88f-4426-a055-2bb5cf53387d",
+                "resourcePath": "views\\13c0008a-3a1c-4027-842c-010eef501d32.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "18c1e6d3-38c1-40c7-817b-521f52606b06",
             "Value": {
                 "id": "b72ae63a-6487-4e5d-b955-c51411a4664c",
@@ -620,6 +628,14 @@
                 "id": "b0fb5955-58b8-43a5-87c9-5889b7fd8cdc",
                 "resourcePath": "views\\e6ba258e-e09e-462f-8fa4-5e166ce0bc59.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f16d5484-e5a1-419c-913b-909ae69fa7cf",
+            "Value": {
+                "id": "17b7cda2-cd69-4751-beaa-e56bfab04ccf",
+                "resourcePath": "objects\\MapGenerator\\MapGenerator.yy",
+                "resourceType": "GMObject"
             }
         },
         {

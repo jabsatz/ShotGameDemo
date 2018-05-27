@@ -26,10 +26,6 @@ if (place_meeting(x1, y1+vsp, obj)) {
 	grounded = false;
 }
 
-if (bbox_top+vsp < 0) {
-	y1 = sprite_yoffset;
-	vsp = 0;
-}
 y1 += vsp;
 
 var result = ds_map_create();
