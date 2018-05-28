@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "109458d9-0726-4c36-9321-97018a0186aa",
+            "Value": {
+                "id": "813ef2f5-88de-44c1-914a-f029017b498a",
+                "resourcePath": "objects\\CameraController\\CameraController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13c0008a-3a1c-4027-842c-010eef501d32",
             "Value": {
                 "id": "5e316234-a88f-4426-a055-2bb5cf53387d",
@@ -108,6 +116,22 @@
                 "id": "89f7a9d4-2701-4e6e-b8e9-54710553d65b",
                 "resourcePath": "sprites\\Drake_midair_sprite\\Drake_midair_sprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2dde8630-253f-43c6-a3ef-817eddf37688",
+            "Value": {
+                "id": "11d59bcf-61db-4d8e-a054-67a1b64fbb46",
+                "resourcePath": "sprites\\explosion\\explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e4eb7ec-a226-4214-bbc5-7e95acfb2075",
+            "Value": {
+                "id": "d5fe8c72-fa57-41b2-be61-b5086386ea08",
+                "resourcePath": "views\\2e4eb7ec-a226-4214-bbc5-7e95acfb2075.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -271,10 +295,26 @@
             }
         },
         {
+            "Key": "66976d87-beb2-4fd2-9efa-5a7e39d76959",
+            "Value": {
+                "id": "0653731d-2640-47cd-b328-fc8483d416fb",
+                "resourcePath": "sprites\\RobotFInd_idle_sprite\\RobotFInd_idle_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67af3ab8-4322-4471-8387-503100c3887d",
             "Value": {
                 "id": "d912da85-2a9e-4108-bd03-65ddab56422b",
                 "resourcePath": "sprites\\Satoshi_idle_sprite\\Satoshi_idle_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74b18e82-042f-4e71-9d45-572a4e93a41f",
+            "Value": {
+                "id": "7da52c2d-71d1-4664-b74b-33e30aae80e5",
+                "resourcePath": "sprites\\RobotF_idle_sprite\\RobotF_idle_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -455,10 +495,26 @@
             }
         },
         {
+            "Key": "b4f00819-7d38-4568-90be-671c6fc10ecc",
+            "Value": {
+                "id": "84779824-1ab3-477f-ab94-03b0555b6970",
+                "resourcePath": "objects\\RobotF_Object\\RobotF_Object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7fc2beb-9765-485e-b4d5-6fec4e82ea94",
             "Value": {
                 "id": "7a4567d2-650e-4270-a6fb-fd91f180c736",
                 "resourcePath": "objects\\RoomFadeEnd\\RoomFadeEnd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bbc5d9fb-8814-4871-abb5-a9b0928130a3",
+            "Value": {
+                "id": "345ff5bb-4a69-4f50-a629-cc337c9e0d29",
+                "resourcePath": "objects\\RobotFInd_Object\\RobotFInd_Object.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -615,6 +671,14 @@
             }
         },
         {
+            "Key": "e51ea6a0-5060-4450-8e59-196526d888ec",
+            "Value": {
+                "id": "ea1c34dc-ec15-43fe-a4c3-2331e9ec6fe2",
+                "resourcePath": "objects\\AbstractRobotObject\\AbstractRobotObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e67f90de-8996-488c-a07e-d27062ca2c29",
             "Value": {
                 "id": "3ddaaf19-abe6-4b63-bad7-9cb1a969abe8",
@@ -628,6 +692,14 @@
                 "id": "b0fb5955-58b8-43a5-87c9-5889b7fd8cdc",
                 "resourcePath": "views\\e6ba258e-e09e-462f-8fa4-5e166ce0bc59.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7cc636c-2540-47c9-8f81-870f8460b9d0",
+            "Value": {
+                "id": "4949acf2-1058-4cd4-9460-a61432ab4af2",
+                "resourcePath": "shaders\\shBrightness\\shBrightness.yy",
+                "resourceType": "GMShader"
             }
         },
         {

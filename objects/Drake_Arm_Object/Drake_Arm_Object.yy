@@ -69,6 +69,20 @@
             "value": "True",
             "varName": "canAltFire",
             "varType": 3
+        },
+        {
+            "id": "63a1f13f-a73a-48c4-8dad-8917ad66f6f5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "altFiringDelay",
+            "varType": 0
         }
     ],
     "solid": false,

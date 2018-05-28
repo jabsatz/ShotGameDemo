@@ -1,0 +1,9 @@
+cam = view_camera[0];
+follow = Drake_Object;
+view_w_half = camera_get_view_width(cam) * 0.5;
+view_h_half = camera_get_view_height(cam) * 0.5;
+x = follow.x;
+y = follow.y;
+xTo = xstart;
+yTo = ystart;
+brightness = shader_get_uniform(shBrightness, "brightness");

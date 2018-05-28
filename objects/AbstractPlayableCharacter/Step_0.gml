@@ -26,7 +26,7 @@ if(shootRecoil == 0) {
 		vsp += jumpsp;
 
 	var move = key_right - key_left;
-	move *= 0.3;
+	move *= 0.5;
 	if(move != 0) {
 		hsp = clamp(move + hsp, -walksp, walksp);
 	} else {
@@ -46,6 +46,7 @@ x = finalPos[? "x"];
 y = finalPos[? "y"];
 hsp = finalPos[? "hsp"];
 vsp = finalPos[? "vsp"];
+grounded = finalPos[? "grounded"];
 
 //Animation
 var angleToMouse = point_direction(x,y,mouse_x,mouse_y);

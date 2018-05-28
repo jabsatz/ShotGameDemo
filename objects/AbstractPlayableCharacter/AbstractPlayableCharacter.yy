@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797"
+        },
+        {
+            "id": "038c5dcb-509c-4ec7-863a-a0f6526ef0b6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "b4f00819-7d38-4568-90be-671c6fc10ecc",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797"
+        },
+        {
+            "id": "c5ba6c60-f6e5-48df-bbaf-9a8e399ae097",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "bbc5d9fb-8814-4871-abb5-a9b0928130a3",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -94,7 +114,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "8",
+            "value": "6",
             "varName": "walksp",
             "varType": 0
         },
@@ -194,6 +214,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "recoilAngle",
+            "varType": 0
+        },
+        {
+            "id": "05261d35-365a-4645-be29-f62000a0e6c3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "flash",
+            "varType": 0
+        },
+        {
+            "id": "780a3100-e22b-4663-a563-a63899207080",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "hp",
             "varType": 0
         }
     ],

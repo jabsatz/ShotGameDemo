@@ -8,3 +8,4 @@ spriteMap = create_sprite_map([
 	Drake_midair_sprite,
 	Drake_portrait
 ]);
+instance_create_layer(0,0,"Character_Addons", Drake_Arm_Object);

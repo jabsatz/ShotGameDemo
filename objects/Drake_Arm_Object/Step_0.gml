@@ -21,10 +21,11 @@ else {
 
 if(!Drake_Object.active){exit}
 
-if(Drake_Object.grounded)
+if(Drake_Object.grounded || Drake_Object.flash > 0)
 	canAltFire = true;
 
 firingDelay -= 1;
+altFiringDelay -= 1;
 
 if(fire_key && firingDelay < 0) {
 	firingDelay = 15;
@@ -35,8 +36,8 @@ if(fire_key && firingDelay < 0) {
 	}
 }
 
-if(alt_fire_key && canAltFire && firingDelay < 0) {
-	firingDelay = 15;
+if(alt_fire_key && canAltFire && altFiringDelay < 0) {
+	altFiringDelay = 15;
 	canAltFire = false;
 	Drake_Object.recoilAngle = degtorad(image_angle);
 	Drake_Object.shootRecoil = 10;

@@ -5,6 +5,7 @@ var y1 = argument1;
 var hsp = argument2;
 var vsp = argument3;
 var obj = argument4;
+var grounded = false;
 
 //Horizontal Collision
 if (place_meeting(x1+hsp, y1, obj)) {
@@ -20,10 +21,8 @@ if (place_meeting(x1, y1+vsp, obj)) {
 	while (!place_meeting(x1, y1+sign(vsp)*0.2, obj)) {
 		y1 += sign(vsp)*0.1;
 	}
+	if(sign(vsp) != -1) grounded = true;
 	vsp = 0;
-	grounded = true;
-} else {
-	grounded = false;
 }
 
 y1 += vsp;
@@ -33,5 +32,6 @@ result[? "x"] = x1;
 result[? "y"] = y1;
 result[? "hsp"] = hsp;
 result[? "vsp"] = vsp;
+result[? "grounded"] = grounded;
 
 return result;
