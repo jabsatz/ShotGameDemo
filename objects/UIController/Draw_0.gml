@@ -1,0 +1,1 @@
+draw_sprite_ext(sCrosshair, 0, mouse_x, mouse_y, 1, 1, timer, c_white, 1);

@@ -12,7 +12,8 @@
         "18c1e6d3-38c1-40c7-817b-521f52606b06",
         "2cbb847e-a8a5-4c06-905b-1fd98ac846bc",
         "46a7d4d2-0723-4c31-bad4-eba23d94e15f",
-        "10211bcf-f08e-493e-ae01-3ba988fc6900"
+        "10211bcf-f08e-493e-ae01-3ba988fc6900",
+        "fada5cd5-6ee9-4591-847d-b338b56cc0c0"
     ],
     "filterType": "GMSprite",
     "folderName": "Drake",

@@ -1,10 +1,10 @@
 draw_set_colour(c_black);
 draw_set_alpha(a);
 draw_rectangle(
-	view_xport[0],
-	view_yport[0],
-	view_xport[0] + view_wport[0],
-	view_yport[0] + view_hport[0],
+	camera_get_view_x(cam),
+	camera_get_view_y(cam),
+	camera_get_view_x(cam) + camera_get_view_width(cam),
+	camera_get_view_y(cam) + camera_get_view_height(cam),
 	false
 );
 

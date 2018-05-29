@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "093ebee6-aeff-406d-b63a-088a5654a724",
+            "Value": {
+                "id": "df037eb8-e709-4785-8afb-541f02028dad",
+                "resourcePath": "sprites\\sResolution\\sResolution.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "09d69f90-2b7e-4570-abc5-5015da3f2dea",
+            "Value": {
+                "id": "759b5cef-1bea-48fc-a183-3398627c795b",
+                "resourcePath": "views\\09d69f90-2b7e-4570-abc5-5015da3f2dea.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0e1817a3-edec-4751-a22f-77f44cc7555a",
             "Value": {
                 "id": "d7a49778-f387-4e02-b755-a70d2d98cd64",
@@ -42,7 +58,7 @@
             "Key": "10211bcf-f08e-493e-ae01-3ba988fc6900",
             "Value": {
                 "id": "f79c9cf2-d3e2-4a84-a548-99ed474311d0",
-                "resourcePath": "sprites\\Drake_arm_sprite\\Drake_arm_sprite.yy",
+                "resourcePath": "sprites\\Drake_arm_charged_sprite\\Drake_arm_charged_sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -71,6 +87,14 @@
             }
         },
         {
+            "Key": "1b580930-6f7c-4bb1-9650-4eacc72659ef",
+            "Value": {
+                "id": "652c9ba8-f789-4b23-bba4-320d4ff8ecf1",
+                "resourcePath": "objects\\Logo\\Logo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f081eae-a902-49be-8649-a05ea40047ff",
             "Value": {
                 "id": "c7716ca5-5685-4255-946e-681de1288f6a",
@@ -84,6 +108,14 @@
                 "id": "105576e6-0c6e-4686-a3fa-bd68f4061ee2",
                 "resourcePath": "views\\1fcdde96-2324-43f6-ba73-dfe54647d286.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2329bb94-63a4-4289-ae44-7cb9aa6d6e3f",
+            "Value": {
+                "id": "d2b6d240-5bd7-4436-a696-e8c5af9c1833",
+                "resourcePath": "objects\\StartMenuController\\StartMenuController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -146,7 +178,7 @@
             "Key": "31c56633-27a4-4a71-9279-55b770446d30",
             "Value": {
                 "id": "8341365e-36b0-4733-ba29-9b94bba524f3",
-                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourcePath": "sprites\\sCrosshair\\sCrosshair.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -207,18 +239,26 @@
             }
         },
         {
-            "Key": "4437d8d7-1543-4914-821e-7cb0bcb606b3",
-            "Value": {
-                "id": "4c5712bc-0425-4fc9-b347-9814fe1a786b",
-                "resourcePath": "objects\\Criosshair\\Criosshair.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "46a7d4d2-0723-4c31-bad4-eba23d94e15f",
             "Value": {
                 "id": "b4d07519-f339-4205-ba6b-d795bb2e5a02",
                 "resourcePath": "sprites\\Drake_portrait\\Drake_portrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4adca0b4-0cff-46a4-932f-effd0d048b27",
+            "Value": {
+                "id": "c203f1f2-4145-4e97-9853-301028601f49",
+                "resourcePath": "sprites\\sLogo\\sLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cbd8011-cdac-45ce-9d0e-4f293cd80c39",
+            "Value": {
+                "id": "97d76cfe-2662-4017-b824-fa536454388a",
+                "resourcePath": "sprites\\sStartGame\\sStartGame.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +314,7 @@
             "Key": "53353333-2ede-4409-9864-4632066e6dc1",
             "Value": {
                 "id": "3eb1711e-d98a-4ac0-ab3e-3c52b827e972",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\Level1\\Level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -291,6 +331,14 @@
             "Value": {
                 "id": "3bfe516f-0562-44ef-8e25-fa71233c4ee3",
                 "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d36141a-521d-4fe0-ac73-9b1d2a0a0592",
+            "Value": {
+                "id": "34b47b04-aaf1-4e4c-a36f-bed183cc8611",
+                "resourcePath": "sprites\\gust\\gust.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -331,6 +379,14 @@
             "Value": {
                 "id": "5b077bd6-464d-4abf-8566-6da2397b9deb",
                 "resourcePath": "objects\\Drake_Object\\Drake_Object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "78f3b532-403e-474b-8a0f-c6430a635e08",
+            "Value": {
+                "id": "ed444438-107f-4950-8ee5-4e30621237db",
+                "resourcePath": "objects\\oGust\\oGust.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -439,6 +495,14 @@
             }
         },
         {
+            "Key": "a2449bdc-3255-4bdc-be62-e549a6f2c12c",
+            "Value": {
+                "id": "d897b10d-7f8b-403a-8900-91d9584cfb5a",
+                "resourcePath": "objects\\oStartGame\\oStartGame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a26be1a1-c766-46fb-a70c-16384f55703b",
             "Value": {
                 "id": "0b215a6f-8a7d-493b-ae7c-369ed9dfdc74",
@@ -474,7 +538,7 @@
             "Key": "afc86c1c-db46-4271-afd3-6cdbd842554b",
             "Value": {
                 "id": "4978792a-baba-45bc-881f-aadddc9a0189",
-                "resourcePath": "objects\\UI\\UI.yy",
+                "resourcePath": "objects\\UIController\\UIController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -543,6 +607,14 @@
             }
         },
         {
+            "Key": "c3682a4e-7345-42c3-ba8e-e921581b99b9",
+            "Value": {
+                "id": "f0cbab5a-20b4-4fa9-b732-ad51d43202ca",
+                "resourcePath": "sprites\\sCursor\\sCursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c481c128-c6e6-4de1-91c9-2ea156442bf9",
             "Value": {
                 "id": "65f44c33-6492-4d15-a8bd-af3712f6e55f",
@@ -587,6 +659,14 @@
             "Value": {
                 "id": "f8137720-df90-491f-8fdb-6e7d85048f45",
                 "resourcePath": "views\\d0a4a742-27fe-4d6b-85df-93f2539e3240.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2a3c21c-3cd4-4e97-923f-b6a1e22cdd51",
+            "Value": {
+                "id": "5c005c30-7b22-4954-82d1-f53b37f3b5bc",
+                "resourcePath": "views\\d2a3c21c-3cd4-4e97-923f-b6a1e22cdd51.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -703,11 +783,27 @@
             }
         },
         {
+            "Key": "ef29713b-34fd-4871-9bad-3cd33217df32",
+            "Value": {
+                "id": "fa56a38a-cbf6-4eb3-87ec-45ec2185dca5",
+                "resourcePath": "sprites\\resolutions\\resolutions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f16d5484-e5a1-419c-913b-909ae69fa7cf",
             "Value": {
                 "id": "17b7cda2-cd69-4751-beaa-e56bfab04ccf",
                 "resourcePath": "objects\\MapGenerator\\MapGenerator.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1cd7e9d-e745-44da-91f6-c28b1af52722",
+            "Value": {
+                "id": "bcbb19ef-25b9-46c2-806b-3a4b74ae97e2",
+                "resourcePath": "rooms\\Start\\Start.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -732,6 +828,14 @@
                 "id": "bc0979d1-dbd1-4df4-bdec-fe91a1bc1801",
                 "resourcePath": "views\\fa35fe60-2a31-4ee7-919f-59053cbcca99.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fada5cd5-6ee9-4591-847d-b338b56cc0c0",
+            "Value": {
+                "id": "3f8c88ce-1c2c-488d-951f-d63eef8f7a80",
+                "resourcePath": "sprites\\Drake_arm_empty_sprite\\Drake_arm_empty_sprite.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
