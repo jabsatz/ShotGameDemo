@@ -44,12 +44,11 @@ if(fire_key && firingDelay < 0) {
 if(alt_fire_key && canAltFire && altFiringDelay < 0) {
 	altFiringDelay = 15;
 	canAltFire = false;
-	Drake_Object.recoilAngle = angle;
+	Drake_Object.recoilAngle = angle - pi;
 	Drake_Object.shootRecoil = 10;
 	
-	with (instance_create_layer(x + tipx, y + tipy, "Bullets", oGust)) {
-		direction = other.image_angle;
-		image_angle = direction;
+	with (instance_create_layer(x + tipx, y + tipy, "Effects", oGust)) {
+		image_angle = other.image_angle + 180;
 	}
 }
 

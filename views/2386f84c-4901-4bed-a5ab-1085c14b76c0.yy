@@ -9,7 +9,8 @@
         "790f8f43-5039-45a5-8762-ed37b00552b7",
         "9da551df-8fbe-4732-bf30-8bc50b7f7d80",
         "2dde8630-253f-43c6-a3ef-817eddf37688",
-        "5d36141a-521d-4fe0-ac73-9b1d2a0a0592"
+        "5d36141a-521d-4fe0-ac73-9b1d2a0a0592",
+        "4e29a6ac-caf1-4c50-9dbe-b3b570ec80af"
     ],
     "filterType": "GMSprite",
     "folderName": "myShittyStuff",

@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "4e29a6ac-caf1-4c50-9dbe-b3b570ec80af",
+            "Value": {
+                "id": "ee60c116-243d-4648-b698-6cbe69309003",
+                "resourcePath": "sprites\\reverseGust\\reverseGust.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e986693-febe-4c6d-bd3a-c0a5d70ef7ca",
             "Value": {
                 "id": "9337e2b2-2e2e-43db-a6cf-51a8a23cc106",
