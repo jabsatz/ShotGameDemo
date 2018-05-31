@@ -47,7 +47,7 @@ if(alt_fire_key && canAltFire && altFiringDelay < 0) {
 	Drake_Object.recoilAngle = angle - pi;
 	Drake_Object.shootRecoil = 10;
 	
-	with (instance_create_layer(x + tipx, y + tipy, "Effects", oGust)) {
+	with (instance_create_layer(x, y, "Effects", oGust)) {
 		image_angle = other.image_angle + 180;
 	}
 }
