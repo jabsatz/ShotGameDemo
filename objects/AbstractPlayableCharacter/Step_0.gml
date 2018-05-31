@@ -21,24 +21,25 @@ if(switchCooldown == 0 && key_switch) {
 */
 
 //Movement
+var move;
 if(shootRecoil == 0) {
 	if(grounded && key_jump)
 		vsp += jumpsp;
 
-	var move = key_right - key_left;
+	move = key_right - key_left;
 	move *= 0.5;
 	if(move != 0) {
 		hsp = clamp(move + hsp, -walksp, walksp);
 	} else {
 		hsp = lerp(hsp, 0, 0.2);
 	}
-	vsp += grv;
+	vsp = min(vsp + grv, maxvsp);
 } else {
-	var move = hsp;
 	vsp = sin(recoilAngle)*shootRecoil;
 	hsp = -cos(recoilAngle)*shootRecoil;
+	move = hsp;
 	shootRecoil = lerp(0, shootRecoil, 0.9);
-	if(shootRecoil < 1) shootRecoil = 0;
+	if(shootRecoil < 1.5) shootRecoil = 0;
 }
 
 var finalPos = check_for_collision(x,y,hsp,vsp,Block);

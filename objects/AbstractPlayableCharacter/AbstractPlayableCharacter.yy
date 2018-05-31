@@ -100,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.4",
+            "value": "0.2",
             "varName": "grv",
             "varType": 0
         },
@@ -114,7 +114,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6",
+            "value": "4",
             "varName": "walksp",
             "varType": 0
         },
@@ -128,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-8",
+            "value": "-5.5",
             "varName": "jumpsp",
             "varType": 0
         },
@@ -242,6 +242,20 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "e0f73e6a-cd94-4d66-b952-4886c6fe7fb4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "maxvsp",
             "varType": 0
         }
     ],
