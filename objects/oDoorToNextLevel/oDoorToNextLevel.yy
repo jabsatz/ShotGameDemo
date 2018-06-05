@@ -1,10 +1,19 @@
 {
-    "id": "e51ea6a0-5060-4450-8e59-196526d888ec",
+    "id": "284ab4b8-5f4b-4458-8808-d2f1c01ce3d7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "AbstractRobotObject",
+    "name": "oDoorToNextLevel",
     "eventList": [
-        
+        {
+            "id": "fe53af92-257e-4710-8b9d-691399e7fcba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "7653afbe-abaf-49c7-8f1f-5d88b8b72410",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "284ab4b8-5f4b-4458-8808-d2f1c01ce3d7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "spriteId": "be96c54b-b746-4d86-a138-33ddbfad6498",
+    "visible": false
 }

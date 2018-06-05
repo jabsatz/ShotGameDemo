@@ -1,5 +1,5 @@
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 /*
@@ -57,5 +57,7 @@ image_xscale = facingRight ? 1 : -1;
 sprite_index = get_animated_sprite(spriteMap, facingRight, move, vsp, grounded);
 
 if(bbox_top > room_height) {
-	instance_create_depth(0,0,-999,RoomFadeEnd);
+	with(instance_create_depth(0,0,-999,RoomFadeEnd)){
+		checkpoint = true;
+	}
 }

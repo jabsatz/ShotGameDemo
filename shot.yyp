@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1bbd13f8-95ce-4dbe-b322-96b2ad334ac2",
+            "Value": {
+                "id": "61e47ff3-9a89-4e06-99b2-2c1394f75e59",
+                "resourcePath": "sprites\\RobotFAtt_idle_sprite\\RobotFAtt_idle_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f081eae-a902-49be-8649-a05ea40047ff",
             "Value": {
                 "id": "c7716ca5-5685-4255-946e-681de1288f6a",
@@ -135,10 +143,26 @@
             }
         },
         {
+            "Key": "284ab4b8-5f4b-4458-8808-d2f1c01ce3d7",
+            "Value": {
+                "id": "172b7bab-0966-4475-932a-11e53db43909",
+                "resourcePath": "objects\\oDoorToNextLevel\\oDoorToNextLevel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28b1c4ab-b1b4-42c1-b098-e9713387e9ce",
             "Value": {
                 "id": "baec5beb-cf30-45c7-87f6-b5728b6e83e9",
                 "resourcePath": "objects\\Satoshi_Object\\Satoshi_Object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ba26143-30d5-4f07-ae6a-b11f1fc509a5",
+            "Value": {
+                "id": "a9e76961-a6fa-41a0-b6ef-dac9a6aa5076",
+                "resourcePath": "objects\\oCheckpoint\\oCheckpoint.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -227,14 +251,6 @@
             "Value": {
                 "id": "610fe5b2-fb1a-448c-8136-463b0fe21a24",
                 "resourcePath": "objects\\RoomFadeStart\\RoomFadeStart.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "436df2de-7541-468d-970a-e0b9320aa866",
-            "Value": {
-                "id": "f8f86816-0016-4575-8abf-75217950700e",
-                "resourcePath": "objects\\Robot1_Object\\Robot1_Object.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -332,6 +348,14 @@
                 "id": "79ab1ba7-ea0a-41ae-965b-ef1f894239ec",
                 "resourcePath": "sprites\\Satoshi_midair_sprite\\Satoshi_midair_sprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "577e72b2-abe1-4074-9f33-3b77dbb7c81c",
+            "Value": {
+                "id": "81f0b5fd-e2c2-4c32-98d0-06edf8e7f155",
+                "resourcePath": "objects\\oDeathZone\\oDeathZone.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -436,6 +460,14 @@
                 "id": "a6e785b3-5c7f-4509-944e-4eb06f9dcd4a",
                 "resourcePath": "scripts\\ds_map_default_value\\ds_map_default_value.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8711773d-9c0d-4f27-8f1b-31314314d1a5",
+            "Value": {
+                "id": "97b9202b-3e7e-40cc-9ff5-1f6f1df390aa",
+                "resourcePath": "rooms\\Level2\\Level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -548,6 +580,14 @@
                 "id": "4978792a-baba-45bc-881f-aadddc9a0189",
                 "resourcePath": "objects\\UIController\\UIController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b20a6ea9-5a67-4641-95e1-5ff2bc2d7a6b",
+            "Value": {
+                "id": "327994f1-2c4b-43f4-bfd5-9315412b6530",
+                "resourcePath": "rooms\\End\\End.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -695,6 +735,14 @@
             }
         },
         {
+            "Key": "d7ca2e93-133a-4ea8-b3de-0b0587a12a2d",
+            "Value": {
+                "id": "494468ba-e71c-42f2-bc64-a5c4127311e4",
+                "resourcePath": "objects\\oRobotFAtt\\oRobotFAtt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8a8414c-b883-4448-a5fd-034481a46a44",
             "Value": {
                 "id": "fc67c292-ec16-4fa7-a221-485cdc1e091f",
@@ -708,6 +756,14 @@
                 "id": "4d164476-53da-449d-abe7-681aa15ad228",
                 "resourcePath": "sprites\\Robot1_run_forward_sprite\\Robot1_run_forward_sprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da0a26cc-9549-40de-8100-16f00050846e",
+            "Value": {
+                "id": "55d6cbe8-e5a7-4871-96d2-6d08b3c01829",
+                "resourcePath": "objects\\EndController\\EndController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -759,14 +815,6 @@
             }
         },
         {
-            "Key": "e51ea6a0-5060-4450-8e59-196526d888ec",
-            "Value": {
-                "id": "ea1c34dc-ec15-43fe-a4c3-2331e9ec6fe2",
-                "resourcePath": "objects\\AbstractRobotObject\\AbstractRobotObject.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e67f90de-8996-488c-a07e-d27062ca2c29",
             "Value": {
                 "id": "3ddaaf19-abe6-4b63-bad7-9cb1a969abe8",
@@ -804,14 +852,6 @@
                 "id": "17b7cda2-cd69-4751-beaa-e56bfab04ccf",
                 "resourcePath": "objects\\MapGenerator\\MapGenerator.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "f1cd7e9d-e745-44da-91f6-c28b1af52722",
-            "Value": {
-                "id": "bcbb19ef-25b9-46c2-806b-3a4b74ae97e2",
-                "resourcePath": "rooms\\Start\\Start.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

@@ -5,7 +5,8 @@
     "name": "2e4eb7ec-a226-4214-bbc5-7e95acfb2075",
     "children": [
         "74b18e82-042f-4e71-9d45-572a4e93a41f",
-        "66976d87-beb2-4fd2-9efa-5a7e39d76959"
+        "66976d87-beb2-4fd2-9efa-5a7e39d76959",
+        "1bbd13f8-95ce-4dbe-b322-96b2ad334ac2"
     ],
     "filterType": "GMSprite",
     "folderName": "RobotF",
