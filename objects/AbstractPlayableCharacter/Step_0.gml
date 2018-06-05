@@ -57,7 +57,5 @@ image_xscale = facingRight ? 1 : -1;
 sprite_index = get_animated_sprite(spriteMap, facingRight, move, vsp, grounded);
 
 if(bbox_top > room_height) {
-	with(instance_create_depth(0,0,-999,RoomFadeEnd)){
-		checkpoint = true;
-	}
+	instance_create_depth(0,0,-999,RoomFadeEnd);
 }
