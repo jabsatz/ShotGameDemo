@@ -1,1 +1,0 @@
-if (place_meeting(x,y,Block)) instance_destroy();

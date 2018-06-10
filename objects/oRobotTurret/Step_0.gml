@@ -1,39 +1,37 @@
-var inTresholdX = AbstractPlayableCharacter.x > x - tresholdX && AbstractPlayableCharacter.x < x + tresholdX;
-var inTresholdY = AbstractPlayableCharacter.y > y - tresholdY && AbstractPlayableCharacter.y < y + tresholdY;
+var inTresholdX = oAbsPlayableCharacter.x > x - tresholdX && oAbsPlayableCharacter.x < x + tresholdX;
+var inTresholdY = oAbsPlayableCharacter.y > y - tresholdY && oAbsPlayableCharacter.y < y + tresholdY;
 var inTreshold = inTresholdX && inTresholdY;
 
-if(!dying) {
-	if(!alert) {
-		//Idle Status
+switch(status) {
+	case "idle":
+		sprite_index = spriteMap[? "Idle"];
 		if(inTreshold) {
-			sprite_index = sRobotTurretAlert;
-			alert = true;
+			status = "alert";
 			alertTimer = initialAlertTimer;
 		}
-	} else {
-		if(!attacking) {
-			//Alert Status
-			if(alertTimer > 0)
-				alertTimer--;
-			else
-				attacking = true;
-		} else {
-			//Attacking Status
-			with (instance_create_layer(x + random_range(-2,2), y + random_range(-2,2), "Bullets", oMachineGunBullet)) {
-				speed = 10;
-				direction = other.facingRight ? 0 : 180;
-			}
+		break;
+	case "alert":
+		sprite_index = spriteMap[? "Alert"];
+		if(alertTimer > 0) 
+			alertTimer--;
+		else
+			status = "attacking";
+		break;
+	case "attacking":
+		sprite_index = spriteMap[? "Attacking"];
+		with (instance_create_layer(x + random_range(-2,2), y + random_range(-2,2), "Bullets", oMachineGunBullet)) {
+			enemy = true;
+			damage = 1;
+			speed = 10;
+			direction = other.facingRight ? 0 : 180;
 		}
-	}
 }
 
-if((alert || attacking) && !inTreshold)
+if((status != "idle") && !inTreshold)
 	if(tresholdTimerActive) {
 		tresholdTimer--;
-		if(tresholdTimer == 0) {
-			alert = false;
-			attacking = false;
-		}
+		if(tresholdTimer == 0)
+			status = "idle";
 	} else {
 		tresholdTimer = initialTresholdTimer;
 		tresholdTimerActive = true;
@@ -41,20 +39,4 @@ if((alert || attacking) && !inTreshold)
 else
 	tresholdTimerActive = false;
 
-if(hp <= 0)
-	dying = true;
-
-//Animation
-facingRight = AbstractPlayableCharacter.x > x;
-
-image_xscale = facingRight ? 1 : -1;
-if(!dying)
-	if(!alert)
-		sprite_index = sRobotTurretIdle;
-	else
-		if(!attacking)
-			sprite_index = sRobotTurretAlert;
-		else
-			sprite_index = sRobotTurretAttacking;
-else
-	sprite_index = explosion;
+event_inherited();

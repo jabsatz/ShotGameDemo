@@ -1,14 +1,17 @@
-facingRight = false;
-hp = 100;
-flash = 0;
+event_inherited();
 tresholdX = 150;
 tresholdY = 100;
 tresholdTimerActive = false;
 tresholdTimer = 0;
 initialTresholdTimer = 50;
 
-alert = false;
+// possible status: idle, alert, attacking, dying
+status = "idle";
 alertTimer = 0;
 initialAlertTimer = 100;
-attacking = false;
-dying = false;
+
+spriteMap = create_sprite_map([
+	sRobotTurretIdle,
+	sRobotTurretAlert,
+	sRobotTurretAttacking
+], "RobotTurret");

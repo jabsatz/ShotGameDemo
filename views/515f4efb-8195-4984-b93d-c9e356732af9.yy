@@ -8,7 +8,7 @@
         "79fb3943-c769-4bac-92a7-f5efc5ee520e"
     ],
     "filterType": "GMObject",
-    "folderName": "Drake_Object_Group",
+    "folderName": "Drake",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

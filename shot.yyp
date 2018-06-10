@@ -58,7 +58,7 @@
             "Key": "10211bcf-f08e-493e-ae01-3ba988fc6900",
             "Value": {
                 "id": "f79c9cf2-d3e2-4a84-a548-99ed474311d0",
-                "resourcePath": "sprites\\Drake_arm_charged_sprite\\Drake_arm_charged_sprite.yy",
+                "resourcePath": "sprites\\sDrakeArmCharged\\sDrakeArmCharged.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "18c1e6d3-38c1-40c7-817b-521f52606b06",
             "Value": {
                 "id": "b72ae63a-6487-4e5d-b955-c51411a4664c",
-                "resourcePath": "sprites\\Drake_jump_sprite\\Drake_jump_sprite.yy",
+                "resourcePath": "sprites\\sDrakeJump\\sDrakeJump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -90,7 +90,7 @@
             "Key": "1b580930-6f7c-4bb1-9650-4eacc72659ef",
             "Value": {
                 "id": "652c9ba8-f789-4b23-bba4-320d4ff8ecf1",
-                "resourcePath": "objects\\Logo\\Logo.yy",
+                "resourcePath": "objects\\oLogo\\oLogo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -98,7 +98,7 @@
             "Key": "1bbd13f8-95ce-4dbe-b322-96b2ad334ac2",
             "Value": {
                 "id": "61e47ff3-9a89-4e06-99b2-2c1394f75e59",
-                "resourcePath": "sprites\\RobotFAtt_idle_sprite\\RobotFAtt_idle_sprite.yy",
+                "resourcePath": "sprites\\sRobotFAttIdle\\sRobotFAttIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "2386f84c-4901-4bed-a5ab-1085c14b76c0",
-            "Value": {
-                "id": "a96a1364-d05c-480b-9262-98a3f4112f2a",
-                "resourcePath": "views\\2386f84c-4901-4bed-a5ab-1085c14b76c0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "27427dc9-46b6-45cd-bb48-fcca07fc19cf",
             "Value": {
                 "id": "0b5a6e81-4487-4f8e-9f5b-bc7643827ca0",
@@ -170,7 +162,7 @@
             "Key": "28b1c4ab-b1b4-42c1-b098-e9713387e9ce",
             "Value": {
                 "id": "baec5beb-cf30-45c7-87f6-b5728b6e83e9",
-                "resourcePath": "objects\\Satoshi_Object\\Satoshi_Object.yy",
+                "resourcePath": "objects\\oSatoshi\\oSatoshi.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -186,7 +178,7 @@
             "Key": "2cbb847e-a8a5-4c06-905b-1fd98ac846bc",
             "Value": {
                 "id": "89f7a9d4-2701-4e6e-b8e9-54710553d65b",
-                "resourcePath": "sprites\\Drake_midair_sprite\\Drake_midair_sprite.yy",
+                "resourcePath": "sprites\\sDrakeMidair\\sDrakeMidair.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -194,7 +186,7 @@
             "Key": "2dde8630-253f-43c6-a3ef-817eddf37688",
             "Value": {
                 "id": "11d59bcf-61db-4d8e-a054-67a1b64fbb46",
-                "resourcePath": "sprites\\explosion\\explosion.yy",
+                "resourcePath": "sprites\\sExplosion\\sExplosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +266,7 @@
             "Key": "46a7d4d2-0723-4c31-bad4-eba23d94e15f",
             "Value": {
                 "id": "b4d07519-f339-4205-ba6b-d795bb2e5a02",
-                "resourcePath": "sprites\\Drake_portrait\\Drake_portrait.yy",
+                "resourcePath": "sprites\\sDrakePortrait\\sDrakePortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -295,14 +287,6 @@
             }
         },
         {
-            "Key": "4e29a6ac-caf1-4c50-9dbe-b3b570ec80af",
-            "Value": {
-                "id": "ee60c116-243d-4648-b698-6cbe69309003",
-                "resourcePath": "sprites\\reverseGust\\reverseGust.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4e986693-febe-4c6d-bd3a-c0a5d70ef7ca",
             "Value": {
                 "id": "9337e2b2-2e2e-43db-a6cf-51a8a23cc106",
@@ -314,7 +298,7 @@
             "Key": "4f87aefd-0994-4699-9f9d-7807654143af",
             "Value": {
                 "id": "3b0ead87-7f61-47a7-aed2-6b0ffda5e037",
-                "resourcePath": "sprites\\Satoshi_jump_sprite\\Satoshi_jump_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiJump\\sSatoshiJump.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -322,7 +306,7 @@
             "Key": "5132c850-b104-4b47-8b6f-9e4fe5fd6542",
             "Value": {
                 "id": "5048bbb6-40cb-4a77-bea9-ead8c96000f2",
-                "resourcePath": "sprites\\Satoshi_run_back_sprite\\Satoshi_run_back_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiRunBack\\sSatoshiRunBack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,14 +316,6 @@
                 "id": "a43c4ec3-e58b-435c-ab89-9c3fe31a9f37",
                 "resourcePath": "views\\515f4efb-8195-4984-b93d-c9e356732af9.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "51668a11-be57-495e-b9d3-f1ae6369dbce",
-            "Value": {
-                "id": "439fa553-e04d-4b13-bafe-6f1fa85ce789",
-                "resourcePath": "sprites\\plx_3\\plx_3.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -362,8 +338,16 @@
             "Key": "571fa9aa-6b7d-4b98-858e-833a916be010",
             "Value": {
                 "id": "79ab1ba7-ea0a-41ae-965b-ef1f894239ec",
-                "resourcePath": "sprites\\Satoshi_midair_sprite\\Satoshi_midair_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiMidair\\sSatoshiMidair.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57216039-851c-4f2a-8a3a-9bff9942b017",
+            "Value": {
+                "id": "e9170806-3815-4014-9c9f-430079643052",
+                "resourcePath": "views\\57216039-851c-4f2a-8a3a-9bff9942b017.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -378,7 +362,7 @@
             "Key": "586e4f36-f0c5-4d72-9950-d5ffd089f8fe",
             "Value": {
                 "id": "3bfe516f-0562-44ef-8e25-fa71233c4ee3",
-                "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -386,15 +370,31 @@
             "Key": "5d36141a-521d-4fe0-ac73-9b1d2a0a0592",
             "Value": {
                 "id": "34b47b04-aaf1-4e4c-a36f-bed183cc8611",
-                "resourcePath": "sprites\\gust\\gust.yy",
+                "resourcePath": "sprites\\sGust\\sGust.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6153143d-f392-4914-a521-4f92d5a6d8e6",
+            "Value": {
+                "id": "64a01b99-2978-4062-8b96-26d0225d9480",
+                "resourcePath": "views\\6153143d-f392-4914-a521-4f92d5a6d8e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "623659ec-165a-4974-8754-5508acc7047a",
+            "Value": {
+                "id": "2747e2f2-ccef-4f72-aa98-b10c77136ec2",
+                "resourcePath": "objects\\oAbsBullet\\oAbsBullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
             "Key": "66976d87-beb2-4fd2-9efa-5a7e39d76959",
             "Value": {
                 "id": "0653731d-2640-47cd-b328-fc8483d416fb",
-                "resourcePath": "sprites\\RobotFInd_idle_sprite\\RobotFInd_idle_sprite.yy",
+                "resourcePath": "sprites\\sRobotFIndIdle\\sRobotFIndIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -402,7 +402,7 @@
             "Key": "67af3ab8-4322-4471-8387-503100c3887d",
             "Value": {
                 "id": "d912da85-2a9e-4108-bd03-65ddab56422b",
-                "resourcePath": "sprites\\Satoshi_idle_sprite\\Satoshi_idle_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiIdle\\sSatoshiIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "74b18e82-042f-4e71-9d45-572a4e93a41f",
             "Value": {
                 "id": "7da52c2d-71d1-4664-b74b-33e30aae80e5",
-                "resourcePath": "sprites\\RobotF_idle_sprite\\RobotF_idle_sprite.yy",
+                "resourcePath": "sprites\\sRobotFIdle\\sRobotFIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -418,7 +418,7 @@
             "Key": "750e833b-7cc0-44ab-b0fe-59ac200cae8c",
             "Value": {
                 "id": "2426aa2d-7971-4837-8640-9f3c6cc92125",
-                "resourcePath": "sprites\\Drake_idle_sprite\\Drake_idle_sprite.yy",
+                "resourcePath": "sprites\\sDrakeIdle\\sDrakeIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -426,7 +426,7 @@
             "Key": "7653afbe-abaf-49c7-8f1f-5d88b8b72410",
             "Value": {
                 "id": "5b077bd6-464d-4abf-8566-6da2397b9deb",
-                "resourcePath": "objects\\Drake_Object\\Drake_Object.yy",
+                "resourcePath": "objects\\oDrake\\oDrake.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -442,7 +442,7 @@
             "Key": "790f8f43-5039-45a5-8762-ed37b00552b7",
             "Value": {
                 "id": "4f1f5c11-704f-4203-92c3-348b54ef3b88",
-                "resourcePath": "sprites\\ui_bullet\\ui_bullet.yy",
+                "resourcePath": "sprites\\sUIBullet\\sUIBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -450,7 +450,7 @@
             "Key": "79fb3943-c769-4bac-92a7-f5efc5ee520e",
             "Value": {
                 "id": "1cfd7624-a112-4091-8fbf-f023ed1f5b0a",
-                "resourcePath": "objects\\Drake_Arm_Object\\Drake_Arm_Object.yy",
+                "resourcePath": "objects\\oDrakeArm\\oDrakeArm.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -466,15 +466,23 @@
             "Key": "82a46cab-ad13-4d33-9252-0948114a753e",
             "Value": {
                 "id": "76b41787-daf3-4eaa-aab4-5cd73cdae61e",
-                "resourcePath": "sprites\\Drake_run_back_sprite\\Drake_run_back_sprite.yy",
+                "resourcePath": "sprites\\sDrakeRunBack\\sDrakeRunBack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8308ff1b-c2c4-4c03-9708-d9c44509bb2d",
+            "Value": {
+                "id": "83986b09-41bb-4bba-8cf3-cba1066dd473",
+                "resourcePath": "views\\8308ff1b-c2c4-4c03-9708-d9c44509bb2d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
             "Key": "855b5622-e7ec-439e-883b-328afdf66a76",
             "Value": {
                 "id": "d8419dbf-5bc7-4c47-ab68-ff002506a0ad",
-                "resourcePath": "sprites\\Satoshi_jump_forward_sprite\\Satoshi_jump_forward_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiJumpForward\\sSatoshiJumpForward.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,10 +503,18 @@
             }
         },
         {
+            "Key": "878906b1-4079-4dbb-b081-0426627c53c7",
+            "Value": {
+                "id": "ecbe2961-a3ca-4dde-a577-dd6ed0a0a7b6",
+                "resourcePath": "views\\878906b1-4079-4dbb-b081-0426627c53c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8a70eddd-ce6e-445a-a4e2-8aca8dba493e",
             "Value": {
                 "id": "04f7f95f-c81f-4674-a3ef-fb5e3bbf64c1",
-                "resourcePath": "objects\\Bullet\\Bullet.yy",
+                "resourcePath": "objects\\oBlasterBullet\\oBlasterBullet.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -506,16 +522,8 @@
             "Key": "8b79cdbb-afdd-4b33-b8bd-ee3bacadceaf",
             "Value": {
                 "id": "961571bd-fa5f-43e7-9c5c-443a26cf6be6",
-                "resourcePath": "scripts\\check_for_collision\\check_for_collision.yy",
+                "resourcePath": "scripts\\apply_movement_and_collision\\apply_movement_and_collision.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9224c021-3105-4b61-bf1f-f85d322357de",
-            "Value": {
-                "id": "36aa87f0-be54-47fa-9ec3-63a1255cbe28",
-                "resourcePath": "sprites\\plx_4\\plx_4.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -527,19 +535,19 @@
             }
         },
         {
-            "Key": "9d3a8a65-d8c6-4a42-9759-a550e9133e1e",
+            "Key": "9da551df-8fbe-4732-bf30-8bc50b7f7d80",
             "Value": {
-                "id": "b1201485-9542-470b-a519-d0eda9e8fb8a",
-                "resourcePath": "sprites\\plx_5\\plx_5.yy",
+                "id": "65575bfe-7b8c-446b-b321-637cc8ce1491",
+                "resourcePath": "sprites\\sCharacterSwitch\\sCharacterSwitch.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "9da551df-8fbe-4732-bf30-8bc50b7f7d80",
+            "Key": "9e551025-3cd5-4e64-9206-cb8576082b8b",
             "Value": {
-                "id": "65575bfe-7b8c-446b-b321-637cc8ce1491",
-                "resourcePath": "sprites\\character_switch_sprite\\character_switch_sprite.yy",
-                "resourceType": "GMSprite"
+                "id": "960b01dd-fda6-4385-b0b5-19fc8cdb3b5a",
+                "resourcePath": "views\\9e551025-3cd5-4e64-9206-cb8576082b8b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -554,7 +562,7 @@
             "Key": "a09acee4-7fd6-4155-b0a5-9367026d4379",
             "Value": {
                 "id": "2f5efe19-d944-44aa-818e-dc46d641d88d",
-                "resourcePath": "sprites\\Drake_jump_forward_sprite\\Drake_jump_forward_sprite.yy",
+                "resourcePath": "sprites\\sDrakeJumpForward\\sDrakeJumpForward.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "a46fb142-e1ae-4f78-8f18-2c6d83c35464",
+            "Value": {
+                "id": "12e48b0e-8c40-4f99-842c-b9041874ad47",
+                "resourcePath": "views\\a46fb142-e1ae-4f78-8f18-2c6d83c35464.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9c99d61-40d5-4a79-9379-eaa7603e8700",
             "Value": {
                 "id": "6bc6586a-13bd-4ce0-b53a-a1cd41260ce9",
@@ -586,7 +602,7 @@
             "Key": "a9eedaa2-dd78-4f9f-9ad9-cc1b403976fb",
             "Value": {
                 "id": "ef5e2844-99fc-410f-bcdb-1a7c723efda3",
-                "resourcePath": "scripts\\get_animated_sprite\\get_animated_sprite.yy",
+                "resourcePath": "scripts\\get_playable_character_sprite\\get_playable_character_sprite.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -618,7 +634,7 @@
             "Key": "b3117f1c-691e-4d98-87ec-34a46718c06b",
             "Value": {
                 "id": "9e86c538-d476-459d-91d3-5715b0f2a2e8",
-                "resourcePath": "sprites\\Satoshi_jump_back_sprite\\Satoshi_jump_back_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiJumpBack\\sSatoshiJumpBack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -634,7 +650,7 @@
             "Key": "b4f00819-7d38-4568-90be-671c6fc10ecc",
             "Value": {
                 "id": "84779824-1ab3-477f-ab94-03b0555b6970",
-                "resourcePath": "objects\\RobotF_Object\\RobotF_Object.yy",
+                "resourcePath": "objects\\oRobotF\\oRobotF.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -650,7 +666,7 @@
             "Key": "bbc5d9fb-8814-4871-abb5-a9b0928130a3",
             "Value": {
                 "id": "345ff5bb-4a69-4f50-a629-cc337c9e0d29",
-                "resourcePath": "objects\\RobotFInd_Object\\RobotFInd_Object.yy",
+                "resourcePath": "objects\\oRobotFInd\\oRobotFInd.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -658,7 +674,7 @@
             "Key": "be3bfd0e-cf36-4ef9-a782-645993ff0d13",
             "Value": {
                 "id": "ac8384f7-13fc-4763-a62f-20317238b1b1",
-                "resourcePath": "sprites\\Drake_run_forward_sprite\\Drake_run_forward_sprite.yy",
+                "resourcePath": "sprites\\sDrakeRunForward\\sDrakeRunForward.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -666,7 +682,7 @@
             "Key": "be96c54b-b746-4d86-a138-33ddbfad6498",
             "Value": {
                 "id": "34e02da6-7e00-458e-91dd-0e8174f8c517",
-                "resourcePath": "sprites\\sprite12\\sprite12.yy",
+                "resourcePath": "sprites\\sBlock\\sBlock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -682,7 +698,7 @@
             "Key": "c2d183b2-4aa5-433c-84be-084440a61e23",
             "Value": {
                 "id": "9e3dcce4-c602-4080-ac3a-4988155d4138",
-                "resourcePath": "objects\\CharacterSwitch\\CharacterSwitch.yy",
+                "resourcePath": "objects\\oCharacterSwitch\\oCharacterSwitch.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -703,6 +719,14 @@
             }
         },
         {
+            "Key": "c5b7e9f4-850c-4bd7-b744-bf989432602b",
+            "Value": {
+                "id": "9f016a1f-c690-48b2-a503-228e72ae77e5",
+                "resourcePath": "views\\c5b7e9f4-850c-4bd7-b744-bf989432602b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6a00c7b-2f62-4aa7-b2ab-40116c74f466",
             "Value": {
                 "id": "4ac51a26-3c3f-4d0d-93b7-0abedc1aeac9",
@@ -711,18 +735,10 @@
             }
         },
         {
-            "Key": "c76f3cb4-8d6d-4fdc-85e5-3a23c83d605c",
-            "Value": {
-                "id": "17cb7c48-2465-4440-87e7-2ce91c41c40e",
-                "resourcePath": "sprites\\plx_2\\plx_2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797",
             "Value": {
                 "id": "c9060e2f-8b51-4885-ab57-37c6fc3443e4",
-                "resourcePath": "objects\\AbstractPlayableCharacter\\AbstractPlayableCharacter.yy",
+                "resourcePath": "objects\\oAbsPlayableCharacter\\oAbsPlayableCharacter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -743,10 +759,26 @@
             }
         },
         {
+            "Key": "d03799aa-176b-4f2f-a764-b3a7f33b5e06",
+            "Value": {
+                "id": "c74a58eb-efff-420f-8423-5ae2c158bcc3",
+                "resourcePath": "objects\\oAbsRobot\\oAbsRobot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d0a4a742-27fe-4d6b-85df-93f2539e3240",
             "Value": {
                 "id": "f8137720-df90-491f-8fdb-6e7d85048f45",
                 "resourcePath": "views\\d0a4a742-27fe-4d6b-85df-93f2539e3240.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d11a5a1f-3ed8-4c1c-9294-66bc01028331",
+            "Value": {
+                "id": "185501cb-5af1-4b04-af1a-f6be93db4976",
+                "resourcePath": "views\\d11a5a1f-3ed8-4c1c-9294-66bc01028331.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -762,16 +794,8 @@
             "Key": "d41af0bf-ba8f-4ec5-bc52-6bb35da305fe",
             "Value": {
                 "id": "155a26ae-bc4b-459a-9e9e-362e76d0620b",
-                "resourcePath": "objects\\Block\\Block.yy",
+                "resourcePath": "objects\\oBlock\\oBlock.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d6d762a0-95f3-492e-abb8-e0dccb41ed56",
-            "Value": {
-                "id": "a363a48a-6ad3-4cd5-aab2-59632937dea1",
-                "resourcePath": "sprites\\plx_1\\plx_1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -818,7 +842,7 @@
             "Key": "db830237-f4a6-4621-b2cc-f037593cebc4",
             "Value": {
                 "id": "3f9b06fc-c94f-4a82-8ffa-e8fb922e2963",
-                "resourcePath": "sprites\\Satoshi_run_forward_sprite\\Satoshi_run_forward_sprite.yy",
+                "resourcePath": "sprites\\sSatoshiRunForward\\sSatoshiRunForward.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -826,7 +850,7 @@
             "Key": "dda411eb-fcec-4b94-ac79-1042faffbcee",
             "Value": {
                 "id": "515c1cfc-734b-45fd-996c-787d1d0a22c2",
-                "resourcePath": "sprites\\Satoshi_portrait\\Satoshi_portrait.yy",
+                "resourcePath": "sprites\\sSatoshiPortrait\\sSatoshiPortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -847,10 +871,18 @@
             }
         },
         {
+            "Key": "e2faf0c7-b12b-406a-9ae1-e552183cda46",
+            "Value": {
+                "id": "d86815f0-cb63-4571-822d-ef1aad860aff",
+                "resourcePath": "views\\e2faf0c7-b12b-406a-9ae1-e552183cda46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e37d9215-9b22-494f-b62a-cf9f6217103e",
             "Value": {
                 "id": "933b73ee-b86c-46d4-8ce1-79587853a832",
-                "resourcePath": "sprites\\Drake_jump_back_sprite\\Drake_jump_back_sprite.yy",
+                "resourcePath": "sprites\\sDrakeJumpBack\\sDrakeJumpBack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -879,6 +911,14 @@
             }
         },
         {
+            "Key": "ec387e9e-0c40-4369-bf44-0980c8a7adec",
+            "Value": {
+                "id": "f6d411c1-528f-4788-bd07-4016bcdd517d",
+                "resourcePath": "objects\\oAbsRobotF\\oAbsRobotF.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eccce9d8-252e-4c51-8ce9-0710a7d856f6",
             "Value": {
                 "id": "5a19ed8d-2b25-4a6c-a336-82559987bab0",
@@ -890,7 +930,7 @@
             "Key": "ef29713b-34fd-4871-9bad-3cd33217df32",
             "Value": {
                 "id": "fa56a38a-cbf6-4eb3-87ec-45ec2185dca5",
-                "resourcePath": "sprites\\resolutions\\resolutions.yy",
+                "resourcePath": "sprites\\sResolutions\\sResolutions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -938,7 +978,7 @@
             "Key": "fada5cd5-6ee9-4591-847d-b338b56cc0c0",
             "Value": {
                 "id": "3f8c88ce-1c2c-488d-951f-d63eef8f7a80",
-                "resourcePath": "sprites\\Drake_arm_empty_sprite\\Drake_arm_empty_sprite.yy",
+                "resourcePath": "sprites\\sDrakeArmEmpty\\sDrakeArmEmpty.yy",
                 "resourceType": "GMSprite"
             }
         }
