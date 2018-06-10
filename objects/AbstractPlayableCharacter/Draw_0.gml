@@ -3,5 +3,9 @@ if(flash > 0) {
 	flash--;
 	shader_set(shWhite);
 }
+if(quickFlash > 0) {
+	quickFlash--;
+	shader_set(shWhite);
+}
 draw_self();
 shader_reset();

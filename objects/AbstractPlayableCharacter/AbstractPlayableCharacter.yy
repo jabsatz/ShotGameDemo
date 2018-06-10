@@ -43,6 +43,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797"
+        },
+        {
+            "id": "727381e4-2a7e-4a84-83a2-5cebbdcf682e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "7e739ac0-a8fb-49bc-b957-41d962b05e75",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c9cffbb4-2f7a-453c-8e58-bb9ae3481797"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -256,6 +266,20 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "maxvsp",
+            "varType": 0
+        },
+        {
+            "id": "5d1b7a87-024e-45c0-9992-e383b7f3d2de",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "quickFlash",
             "varType": 0
         }
     ],
