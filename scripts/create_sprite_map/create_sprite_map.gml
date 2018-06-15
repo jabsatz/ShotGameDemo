@@ -1,4 +1,4 @@
-// create_sprite_map(sprites)
+// create_sprite_map(sprites, spriteGroupName)
 // defines a sprite map which holds a [k,v] pair
 // that represents [action, sprite]
 

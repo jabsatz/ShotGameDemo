@@ -20,42 +20,45 @@ if(switchCooldown == 0 && key_switch) {
 }
 */
 
-//Movement
-var move;
-if(shootRecoil == 0) {
-	if(grounded && key_jump)
-		vsp += jumpsp;
+if(!dying) {
+	//Movement
+	var move;
+	if(shootRecoil == 0) {
+		if(grounded && key_jump) {
+			vsp += jumpsp;
+			attached = -1;
+		}
 
-	move = key_right - key_left;
-	move *= 0.5;
-	if(move != 0) {
-		hsp = clamp(move + hsp, -walksp, walksp);
+		move = key_right - key_left;
+		move *= 0.5;
+		if(move != 0) {
+			hsp = clamp(move + hsp, -walksp, walksp);
+		} else {
+			hsp = lerp(hsp, 0, 0.2);
+		}
+		vsp = min(vsp + grv, maxvsp);
 	} else {
-		hsp = lerp(hsp, 0, 0.2);
+		vsp = sin(recoilAngle)*shootRecoil;
+		hsp = -cos(recoilAngle)*shootRecoil;
+		move = hsp;
+		shootRecoil = lerp(0, shootRecoil, 0.9);
+		if(shootRecoil < 1.5) shootRecoil = 0;
 	}
-	vsp = min(vsp + grv, maxvsp);
+
+	var finalPos = apply_movement_and_collision(id);
+	x = finalPos[? "x"];
+	y = finalPos[? "y"];
+	hsp = finalPos[? "hsp"];
+	vsp = finalPos[? "vsp"];
+	grounded = finalPos[? "grounded"];
+	attached = finalPos[? "attached"];
+
+	//Animation
+	var angleToMouse = point_direction(x,y,mouse_x,mouse_y);
+	facingRight = angleToMouse <= 90 || angleToMouse >= 270;
+
+	image_xscale = facingRight ? 1 : -1;
+	sprite_index = get_playable_character_sprite(spriteMap, facingRight, move, vsp, grounded);
 } else {
-	vsp = sin(recoilAngle)*shootRecoil;
-	hsp = -cos(recoilAngle)*shootRecoil;
-	move = hsp;
-	shootRecoil = lerp(0, shootRecoil, 0.9);
-	if(shootRecoil < 1.5) shootRecoil = 0;
-}
-
-var finalPos = apply_movement_and_collision(x,y,hsp,vsp,oBlock);
-x = finalPos[? "x"];
-y = finalPos[? "y"];
-hsp = finalPos[? "hsp"];
-vsp = finalPos[? "vsp"];
-grounded = finalPos[? "grounded"];
-
-//Animation
-var angleToMouse = point_direction(x,y,mouse_x,mouse_y);
-facingRight = angleToMouse <= 90 || angleToMouse >= 270;
-
-image_xscale = facingRight ? 1 : -1;
-sprite_index = get_playable_character_sprite(spriteMap, facingRight, move, vsp, grounded);
-
-if(bbox_top > room_height) {
-	instance_create_depth(0,0,-999,RoomFadeEnd);
+	sprite_index = sExplosion;
 }

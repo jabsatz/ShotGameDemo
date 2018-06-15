@@ -1,6 +1,6 @@
-if(other.enemy && quickFlash <= 0) {
-	quickFlash = 5;
-	hp -=1;
-	shootRecoil = 2;
-	recoilAngle = degtorad(other.direction - 180);
+if(other.enemy && !dying) {
+	dying = true;
+	with(instance_create_depth(0,0,-999,RoomFadeEnd)) {
+		checkpoint = true;
+	}
 }

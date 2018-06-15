@@ -1,0 +1,1 @@
+instance_create_depth(oAbsPlayableCharacter.x,oAbsPlayableCharacter.y,-999,oDoorToNextLevel);

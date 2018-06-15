@@ -4,6 +4,7 @@ if(a == 1) {
 	if(checkpoint) {
 		oAbsPlayableCharacter.x = global.checkpointX;
 		oAbsPlayableCharacter.y = global.checkpointY;
+		oAbsPlayableCharacter.dying = false;
 		instance_create_depth(0,0,-999,RoomFadeStart)
 		instance_destroy();
 	}

@@ -48,6 +48,7 @@ if(alt_fire_key && canAltFire && altFiringDelay < 0) {
 	canAltFire = false;
 	oDrake.recoilAngle = angle - pi;
 	oDrake.shootRecoil = 10;
+	oDrake.attached = -1;
 	
 	with (instance_create_layer(x, y, "Effects", oGust)) {
 		image_angle = other.image_angle + 180;
