@@ -1,3 +1,5 @@
+timer++;
+
 if(instance_exists(follow)) {
 	xTo = follow.x + (mouse_x - follow.x)*0.2;
 	yTo = follow.y + (mouse_y - follow.y)*0.2;

@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "109458d9-0726-4c36-9321-97018a0186aa",
-            "Value": {
-                "id": "813ef2f5-88de-44c1-914a-f029017b498a",
-                "resourcePath": "objects\\CameraController\\CameraController.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "13c0008a-3a1c-4027-842c-010eef501d32",
             "Value": {
                 "id": "5e316234-a88f-4426-a055-2bb5cf53387d",
@@ -335,6 +327,14 @@
             }
         },
         {
+            "Key": "53616028-6910-47f6-ac26-82fe73de2933",
+            "Value": {
+                "id": "e210c442-84ad-4983-a14d-dde15ff79a91",
+                "resourcePath": "sprites\\sRobotTurretIndAttacking\\sRobotTurretIndAttacking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "571fa9aa-6b7d-4b98-858e-833a916be010",
             "Value": {
                 "id": "79ab1ba7-ea0a-41ae-965b-ef1f894239ec",
@@ -404,6 +404,14 @@
                 "id": "d912da85-2a9e-4108-bd03-65ddab56422b",
                 "resourcePath": "sprites\\sSatoshiIdle\\sSatoshiIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a13a9e4-b252-4246-8d54-149ca4bba5d5",
+            "Value": {
+                "id": "b66c1862-6a32-445c-a5e2-b17ba4b16dea",
+                "resourcePath": "views\\6a13a9e4-b252-4246-8d54-149ca4bba5d5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "81902e94-a3db-44d5-917b-3ee0bb442914",
+            "Value": {
+                "id": "9261bb40-ba89-459b-960d-fba3398f6fed",
+                "resourcePath": "sprites\\sRobotTurretIndIdle\\sRobotTurretIndIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82a46cab-ad13-4d33-9252-0948114a753e",
             "Value": {
                 "id": "76b41787-daf3-4eaa-aab4-5cd73cdae61e",
@@ -548,6 +564,14 @@
                 "id": "66e513f3-32c2-465e-9d9c-504acb81da07",
                 "resourcePath": "views\\946440ec-4e3a-4b1d-9030-9517f9c3a9ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9826de10-14f3-4551-ad5a-a3e2cc553511",
+            "Value": {
+                "id": "01649404-62cd-46af-97c6-5e97800870a4",
+                "resourcePath": "sprites\\sRobotTurretIndAlert\\sRobotTurretIndAlert.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -634,7 +658,15 @@
             "Key": "afc86c1c-db46-4271-afd3-6cdbd842554b",
             "Value": {
                 "id": "4978792a-baba-45bc-881f-aadddc9a0189",
-                "resourcePath": "objects\\UIController\\UIController.yy",
+                "resourcePath": "objects\\MainGameController\\MainGameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b018cca9-6448-45b9-9822-01557541c12f",
+            "Value": {
+                "id": "c4aadc60-7bf0-495c-8d22-f019bb0a2501",
+                "resourcePath": "objects\\oRobotTurretInd\\oRobotTurretInd.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -871,6 +903,14 @@
             }
         },
         {
+            "Key": "dd973423-231f-4bac-b5ce-973170999cce",
+            "Value": {
+                "id": "94d58928-2e3e-4011-8a04-025a20ad5835",
+                "resourcePath": "views\\dd973423-231f-4bac-b5ce-973170999cce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dda411eb-fcec-4b94-ac79-1042faffbcee",
             "Value": {
                 "id": "515c1cfc-734b-45fd-996c-787d1d0a22c2",
@@ -908,6 +948,14 @@
                 "id": "933b73ee-b86c-46d4-8ce1-79587853a832",
                 "resourcePath": "sprites\\sDrakeJumpBack\\sDrakeJumpBack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e52ce174-2cef-42d0-b842-dc54a734df65",
+            "Value": {
+                "id": "e5206f3b-833e-4901-bbe1-7b054018e09b",
+                "resourcePath": "scripts\\fade_to_black\\fade_to_black.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1012,7 +1060,8 @@
         "a9eedaa2-dd78-4f9f-9ad9-cc1b403976fb",
         "c481c128-c6e6-4de1-91c9-2ea156442bf9",
         "85e94ab8-27dc-43f3-8378-52d3a2ca8a53",
-        "e282c143-b6ab-4375-bd17-f7f7c461171c"
+        "e282c143-b6ab-4375-bd17-f7f7c461171c",
+        "e52ce174-2cef-42d0-b842-dc54a734df65"
     ],
     "tutorial": ""
 }
