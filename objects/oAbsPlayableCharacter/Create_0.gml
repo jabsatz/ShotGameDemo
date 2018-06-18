@@ -7,7 +7,9 @@ jumpsp = -5.5;
 grounded = false;
 facingRight = true;
 dying = false;
+deathTimer = 30;
 attached = -1;
+move = 0;
 
 //Character Switch
 active = layer_get_name(layer) == "Character";

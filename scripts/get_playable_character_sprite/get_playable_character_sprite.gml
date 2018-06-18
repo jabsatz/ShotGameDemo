@@ -1,21 +1,31 @@
-/// get_animated_sprite(spriteMap, facingRight, move, vspd, grounded)
+/// get_playable_character_sprite(spriteMap, instanceId)
 // returns correct sprite to render, spriteMap needs to have the following actions:
 // idle (note: will override any other that isn't defined);
 // jump, midair, jump_forward, jump_back, run_forward, run_back)
 
 var spriteMap = argument0;
-var facingRight = argument1;
-var move = argument2;
-var vspd = argument3;
-var grounded = argument4;
-var facingGoingSameDirection = (move > 0 && facingRight) || (move < 0 && !facingRight);
+var character = argument1;
+var facingGoingSameDirection = (
+	(character.move > 0 && character.facingRight) ||
+	(character.move < 0 && !character.facingRight)
+);
 var idle = spriteMap[? "Idle"];
 
 //Animation
 
-if(!grounded) {
-	if(move == 0) {
-		if(vsp < 0)
+if(character.dying) {
+	if(character.sprite_index == spriteMap[? "Unconscious"] || (
+		character.sprite_index == spriteMap[? "Death"] &&
+		character.image_index == character.image_number - 1
+	)) {
+		return ds_map_default_value(spriteMap, "Unconscious", idle);
+	}
+	return ds_map_default_value(spriteMap, "Death", idle);
+}
+
+if(!character.grounded) {
+	if(character.move == 0) {
+		if(character.vsp < 0)
 			return ds_map_default_value(spriteMap, "Jump", idle);
 		else
 			return ds_map_default_value(spriteMap, "Midair", idle);
@@ -27,7 +37,7 @@ if(!grounded) {
 	}
 }
 
-else if(move != 0) {
+else if(character.move != 0) {
 	if(facingGoingSameDirection)
 		return ds_map_default_value(spriteMap, "RunForward", idle);
 	else

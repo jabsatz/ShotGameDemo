@@ -7,6 +7,8 @@ spriteMap = create_sprite_map([
 	sDrakeJumpBack,
 	sDrakeJump,
 	sDrakeMidair,
-	sDrakePortrait
+	sDrakePortrait,
+	sDrakeUnconscious,
+	sDrakeDeath
 ], "Drake");
 instance_create_layer(0,0,"Character_Addons", oDrakeArm);

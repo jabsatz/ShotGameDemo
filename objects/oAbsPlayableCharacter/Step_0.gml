@@ -22,7 +22,6 @@ if(switchCooldown == 0 && key_switch) {
 
 if(!dying) {
 	//Movement
-	var move;
 	if(shootRecoil == 0) {
 		if(grounded && key_jump) {
 			vsp += jumpsp;
@@ -44,21 +43,26 @@ if(!dying) {
 		shootRecoil = lerp(0, shootRecoil, 0.9);
 		if(shootRecoil < 1.5) shootRecoil = 0;
 	}
-
-	var finalPos = apply_movement_and_collision(id);
-	x = finalPos[? "x"];
-	y = finalPos[? "y"];
-	hsp = finalPos[? "hsp"];
-	vsp = finalPos[? "vsp"];
-	grounded = finalPos[? "grounded"];
-	attached = finalPos[? "attached"];
-
-	//Animation
-	var angleToMouse = point_direction(x,y,mouse_x,mouse_y);
-	facingRight = angleToMouse <= 90 || angleToMouse >= 270;
-
-	image_xscale = facingRight ? 1 : -1;
-	sprite_index = get_playable_character_sprite(spriteMap, facingRight, move, vsp, grounded);
 } else {
-	sprite_index = sExplosion;
+	deathTimer--;
+	vsp = min(vsp + grv, maxvsp);
+	if(deathTimer == 0) {
+		fade_to_black(false);	
+	}
 }
+
+var finalPos = apply_movement_and_collision(id);
+x = finalPos[? "x"];
+y = finalPos[? "y"];
+hsp = finalPos[? "hsp"];
+vsp = finalPos[? "vsp"];
+grounded = finalPos[? "grounded"];
+attached = finalPos[? "attached"];
+
+
+//Animation
+var angleToMouse = point_direction(x,y,mouse_x,mouse_y);
+facingRight = angleToMouse <= 90 || angleToMouse >= 270;
+
+image_xscale = facingRight ? 1 : -1;
+sprite_index = get_playable_character_sprite(spriteMap, id);

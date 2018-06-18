@@ -1,4 +1,4 @@
 if(other.enemy && !dying) {
 	dying = true;
-	fade_to_black(false);
+	hsp = other.direction > 90 && other.direction < 270 ? -5 : 5;
 }

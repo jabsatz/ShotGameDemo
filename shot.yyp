@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1c05b896-54aa-4b48-8938-c882e4887a9f",
+            "Value": {
+                "id": "5682c563-fbc8-413f-b572-7728df35ec3d",
+                "resourcePath": "sprites\\sDrakeUnconscious\\sDrakeUnconscious.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c6c6469-cac3-4623-9fab-cef1df836ad8",
             "Value": {
                 "id": "e29077d0-0179-4b70-8666-ad9b7222cb53",
@@ -695,14 +703,6 @@
             }
         },
         {
-            "Key": "b4f00819-7d38-4568-90be-671c6fc10ecc",
-            "Value": {
-                "id": "84779824-1ab3-477f-ab94-03b0555b6970",
-                "resourcePath": "objects\\oRobotF\\oRobotF.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b7fc2beb-9765-485e-b4d5-6fec4e82ea94",
             "Value": {
                 "id": "7a4567d2-650e-4270-a6fb-fd91f180c736",
@@ -887,6 +887,14 @@
             }
         },
         {
+            "Key": "da99c1fd-ed1d-4eef-9e68-87ddd442c62a",
+            "Value": {
+                "id": "ac6b7acf-c415-4be1-9bf4-fd5e2098e367",
+                "resourcePath": "sprites\\sDrakeDeath\\sDrakeDeath.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "db05d475-9bfc-4387-b0fd-4c9d62615215",
             "Value": {
                 "id": "73652033-7be3-461b-ac09-a7934f1c93e9",
@@ -986,7 +994,7 @@
             "Key": "ec387e9e-0c40-4369-bf44-0980c8a7adec",
             "Value": {
                 "id": "f6d411c1-528f-4788-bd07-4016bcdd517d",
-                "resourcePath": "objects\\oAbsRobotF\\oAbsRobotF.yy",
+                "resourcePath": "objects\\oRobotF\\oRobotF.yy",
                 "resourceType": "GMObject"
             }
         },
